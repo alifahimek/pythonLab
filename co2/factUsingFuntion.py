@@ -1,5 +1,3 @@
-a=int(input("enter the limit"))
-
 
 def fact(a):
     if a==1:
@@ -7,4 +5,4 @@ def fact(a):
     else:
      return a*fact(a-1)
 
-print("factorial is",fact(a))
+print("factorial is",fact())
